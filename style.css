@@ -10,6 +10,8 @@ body {
   padding: 50px; 
 }
 div {
+  width: 100px;
+  height: 100px;
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
