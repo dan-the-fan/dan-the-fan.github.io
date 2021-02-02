@@ -5,3 +5,6 @@ RewriteRule ^(.+)$ $1.html [L,QSA]
 
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+
+<Files newcaptcha.html> AddType application/x-httpd-php .html </Files>
