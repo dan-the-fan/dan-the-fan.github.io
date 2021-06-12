@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>	
-		<title>JavaScript Simple Login System</title>
-		<link rel="shortcut icon" href="favicon.ico">
+		<title>new captcha</title>
 	</head>
 	<body>
 		<form>
+			<image scr="newcaptcha.gif"
 			<input type="text" id="password" placeholder="insert the text above">
 			<button type="button" onclick="getInfo()">Click Me</button>
 		</form>
@@ -15,7 +15,7 @@
 // Loop through Array of Objects
 var objPeople = [
 	{ // Object @ 0 index
-		password: "the quick brown fox jumps over the lazy dog"
+		password: "The quick brown fox jumps over the lazy dog"
 	}
 
 ]
@@ -26,7 +26,6 @@ function getInfo() {
 	for(var i = 0; i < objPeople.length; i++) {
 		if(username == objPeople[i].password == objPeople[i].password) {
 			window.location.href("dan-the-fan.github.io")
-			return
 		}
 	}
 	document.write("NO. refresh the page to try again.")
