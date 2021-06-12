@@ -1,5 +1,7 @@
 *{
-font-family: 'Segoe UI';
+  font-family: 'Segoe UI';
+  background: black;
+  color: white;
 }
 
 h1{
